@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 # Configure networking for all wired and wireless devices.
 #
 # Creates network-manager connections.

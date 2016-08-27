@@ -4,6 +4,8 @@
 # source to be available, by providing the source of every package
 # used.
 
+set -e
+
 if [ 'true' = "$SOURCE" ] ; then
     echo "Adding source packages to file system"
 else

@@ -2,6 +2,8 @@
 #
 # Configure Apache for FBX.
 
+set -e
+
 echo "Configuring Apache..."
 
 # enable non-multithreaded Apache worker model as there a many PHP
