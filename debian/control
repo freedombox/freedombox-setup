@@ -33,7 +33,6 @@ Depends: ${misc:Depends}
  , dnsutils
  , dosfstools
  , etckeeper
- , firewalld
  , haveged
  , how-can-i-help
  , htop
@@ -51,28 +50,21 @@ Depends: ${misc:Depends}
  , locales
  , locales-all
  , lsof
- , macchanger
- , netcat
+ , netcat-openbsd
  , network-manager
  , net-tools
- , ntp
  , openssh-server
  , parted
  , plinth (>> 0.9.2)
  , psmisc
  , resolvconf
+ , rfkill
  , ssl-cert
  , sudo
  , tcpdump
- , unattended-upgrades
  , vim-tiny
  , wget
  , wireless-tools
  , zile
-Recommends:
- batctl
- , rfkill
-Suggests:
- monkeysphere
 Description: Package to set up freedombox environment
  Configure the Freedombox environment before and after the first reboot.
