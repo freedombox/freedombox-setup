@@ -58,7 +58,6 @@ Depends: ${misc:Depends}
  , plinth (>> 0.9.2)
  , psmisc
  , resolvconf
- , rfkill
  , ssl-cert
  , sudo
  , tcpdump
@@ -66,5 +65,7 @@ Depends: ${misc:Depends}
  , wget
  , wireless-tools
  , zile
+Recommends:
+ rfkill
 Description: Package to set up freedombox environment
  Configure the Freedombox environment before and after the first reboot.
