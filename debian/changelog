@@ -1,3 +1,15 @@
+freedombox-setup (0.10) UNRELEASED; urgency=medium
+
+  [ Petter Reinholdtsen ]
+  * Drop obsolete build dependencies needed to build documentation.
+
+  [ Sunil Mohan Adapa ]
+  * Exit with error code when a component fails (Closes: #835632).
+  * Cleanup dependencies that are dependencies of plinth, or otherwise no
+    longer needed (Closes: #837335).
+
+ -- James Valleroy <jvalleroy@mailbox.org>  Thu, 29 Sep 2016 18:12:41 -0400
+
 freedombox-setup (0.9.3) unstable; urgency=medium
 
   * Change maintainer to the FreedomBox packaging team.
