@@ -52,7 +52,6 @@ Depends: ${misc:Depends}
  , lsof
  , netcat-openbsd
  , network-manager
- , net-tools
  , openssh-server
  , parted
  , plinth (>> 0.9.2)
