@@ -1,4 +1,4 @@
-freedombox-setup (0.10) UNRELEASED; urgency=medium
+freedombox-setup (0.10) unstable; urgency=medium
 
   [ Petter Reinholdtsen ]
   * Drop obsolete build dependencies needed to build documentation.
@@ -12,9 +12,9 @@ freedombox-setup (0.10) UNRELEASED; urgency=medium
   * Update VCS url.
 
   [ James Valleroy ]
-  * Drop obsolete package net-tools depedency (Closes: #849413).
+  * Drop obsolete package net-tools dependency (Closes: #849413).
 
- -- Sunil Mohan Adapa <sunil@medhas.org>  Wed, 28 Dec 2016 14:52:10 +0530
+ -- Federico Ceratto <federico@debian.org>  Sat, 14 Jan 2017 15:59:14 +0000
 
 freedombox-setup (0.9.3) unstable; urgency=medium
 
