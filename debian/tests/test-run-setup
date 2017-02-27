@@ -7,6 +7,9 @@ set -e
 HOME="$(mktemp -d)"
 export HOME
 
+# Don't page systemd output, so error details are shown in log.
+export SYSTEMD_PAGER=cat
+
 /usr/lib/freedombox/setup
 
 rm -rf "${HOME}"
