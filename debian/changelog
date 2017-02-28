@@ -1,3 +1,10 @@
+freedombox-setup (0.11) UNRELEASED; urgency=medium
+
+  [James Valleroy]
+  * Disable systemd pager for CI test.
+
+ -- Sunil Mohan Adapa <sunil@medhas.org>  Tue, 28 Feb 2017 11:12:06 +0530
+
 freedombox-setup (0.10) unstable; urgency=medium
 
   [ Petter Reinholdtsen ]
