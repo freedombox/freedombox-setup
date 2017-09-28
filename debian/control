@@ -54,7 +54,7 @@ Depends: ${misc:Depends}
  , network-manager
  , openssh-server
  , parted
- , plinth (>= 0.15.2)
+ , plinth (>> 0.15.2)
  , psmisc
  , resolvconf
  , ssl-cert
