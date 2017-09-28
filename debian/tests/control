@@ -1,2 +1,0 @@
-Tests: test-run-setup
-Restrictions: needs-root, breaks-testbed, allow-stderr

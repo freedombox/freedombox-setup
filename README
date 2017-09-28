@@ -5,15 +5,8 @@ To make sure a FreedomBox can be set up on any architecture
 supported by Debian, the code and settings used to configure
 packages are gathered in this deb.
 
-The scripts in setup.d/ are executed during installation to install
-and configure different parts of the FreedomBox.  Note that most setup
-should be done as plinth modules on request of its user, and not
-during installation.  These scripts should not make any assumtions
-about hostname or encryption keys, as these will be set or generated
-on the first boot.
-
-After freedombox-setup is installed, the /usr/lib/freedombox/setup
-should be called to finish the setup.  
+Note that most setup is done as plinth modules on request of its
+user, and not during installation.
 
 To create the deb file:
 

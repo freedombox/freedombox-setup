@@ -12,7 +12,6 @@ Build-Depends: debhelper (>= 9)
  , dh-python
  , python3-all
 Standards-Version: 3.9.8
-Testsuite: autopkgtest
 Homepage: https://wiki.debian.org/FreedomBox
 Vcs-Git: https://anonscm.debian.org/git/freedombox/freedombox-setup.git
 Vcs-Browser: https://anonscm.debian.org/cgit/freedombox/freedombox-setup.git
