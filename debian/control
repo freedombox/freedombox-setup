@@ -20,8 +20,6 @@ Package: freedombox-setup
 Architecture: all
 Depends: ${misc:Depends}
  , ${python3:Depends}
- , apache2
- , augeas-tools
  , bridge-utils
  , curl
  , devio
@@ -36,8 +34,6 @@ Depends: ${misc:Depends}
  , iptables
  , iputils-ping
  , iw
- , libapache2-mod-gnutls (>= 0.7.4-1)
- , libapache2-mod-php
  , libnss-gw-name
  , libnss-mdns
  , libnss-myhostname
@@ -47,14 +43,11 @@ Depends: ${misc:Depends}
  , locales-all
  , lsof
  , netcat-openbsd
- , network-manager
- , openssh-server
  , parted
  , plinth (>> 0.15.2)
  , psmisc
  , resolvconf
  , ssl-cert
- , sudo
  , tcpdump
  , vim-tiny
  , wget
