@@ -3,6 +3,7 @@ freedombox-setup (0.11) UNRELEASED; urgency=medium
   [ James Valleroy ]
   * Disable systemd pager for CI test.
   * Bump standards version to 4.1.1.
+  * Remove depends that are also plinth depends (Closes: #877955).
 
   [ Sunil Mohan Adapa ]
   * Cleanup setup steps based on Plinth changes (Closes: #873946):
