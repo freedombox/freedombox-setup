@@ -8,6 +8,7 @@ Uploaders:
  , Sunil Mohan Adapa <sunil@medhas.org>
  , Federico Ceratto <federico@debian.org>
  , Petter Reinholdtsen <pere@debian.org>
+ , James Valleroy <jvalleroy@mailbox.org>
 Build-Depends: debhelper (>= 9)
  , dh-python
  , python3-all

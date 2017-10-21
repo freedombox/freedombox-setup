@@ -1,9 +1,12 @@
-freedombox-setup (0.11) UNRELEASED; urgency=medium
+freedombox-setup (0.11) unstable; urgency=high
 
   [ James Valleroy ]
   * Disable systemd pager for CI test.
   * Bump standards version to 4.1.1.
   * Remove depends that are also plinth depends (Closes: #877955).
+  * Add myself to uploaders.
+  * Set high urgency because plinth 0.15.3+ds-1 breaks older versions of
+    freedombox-setup.
 
   [ Sunil Mohan Adapa ]
   * Cleanup setup steps based on Plinth changes (Closes: #873946):
@@ -17,7 +20,7 @@ freedombox-setup (0.11) UNRELEASED; urgency=medium
     + Move Avahi configuration to Plinth.
   * There is now no need to run setup anymore (Closes: #834260).
 
- -- James Valleroy <jvalleroy@mailbox.org>  Fri, 06 Oct 2017 20:42:54 -0400
+ -- James Valleroy <jvalleroy@mailbox.org>  Sat, 21 Oct 2017 17:22:18 -0400
 
 freedombox-setup (0.10) unstable; urgency=medium
 
